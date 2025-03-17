@@ -1,0 +1,82 @@
+body{
+    background-image: url("visuais/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.frame_recarga{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: orange;
+}
+.frame_codigo{
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: white;
+}
+.confirmar{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: yellow;
+    cursor: pointer;
+    font-family: Arial;
+}
+.confirmar:hover{
+    background-color: rgb(187, 187, 0);
+}
+.aviso_qr{
+    position: absolute;
+    bottom: 80%;
+    font-family: Verdana;
+}
+.entrada_recarga{
+    position: absolute;
+    top: 75%;
+    width: 150px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.voltar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 75%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+.voltar img:hover{
+    filter: opacity(70%);
+    cursor: pointer;
+}
+.voltar img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.aviso_recarga{
+    display: none;
+    position: absolute;
+    top: 80%;
+    font-family: Arial;
+    font-size: large;
+}
