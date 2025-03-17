@@ -1,0 +1,159 @@
+body{
+    background-image: url("visuais/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 550px;
+    background-color: rgb(253, 253, 68);
+    border-radius: 5%;
+}
+.frame2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 280px;
+    background-color: rgb(241, 149, 28);
+    border-radius: 10%;
+}
+.fila1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(252, 68, 99);
+    left: 35%;
+    top: 50%;
+    border-radius: 10%;
+    margin: 10px;
+}
+.fila2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(252, 68, 99);
+    top: 50%;
+    border-radius: 10%;
+    margin: 10px;
+}
+.fila3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(252, 68, 99);
+    right: 35%;
+    top: 50%;
+    border-radius: 10%;
+    margin: 10px;
+}
+.tigre{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    height: 150px;
+    border-radius: 5px;
+}
+.dinheiro{
+    width: 90px;
+    height: 90px;
+}
+.flor{
+    width: 90px;
+    height: 90px;
+}
+.moeda{
+    width: 90px;
+    height: 90px;
+}
+.apostar{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 63%;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(255, 9, 9);
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial;
+}
+.apostar:hover{
+    background-color: rgb(194, 0, 0);
+}
+.mmvalor{
+    position: relative;
+    white-space: nowrap;
+    width: 23%;
+    height: 3.9%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Arial;
+}
+.mmvalor button{
+    background-color: rgb(66, 236, 14);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.mmvalor button:hover{
+    background-color: rgb(35, 151, 0);
+}
+.saldo{
+    position: absolute;
+    top: 70%;
+    font-family: Arial;
+}
+.ganhou{
+    display: none;
+    position: absolute;
+    bottom: 75%;
+    font-family: Arial;
+
+}
+.recarga{
+    position: absolute;
+    left: 85%;
+    top: 90%;
+    background-color: darkorange;
+    border-radius: 15px;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    font-family: Arial;
+}
+.recarga:hover{
+    background-color: rgb(196, 108, 0);
+}
+.pedido{
+    position: absolute;
+    left: 85%;
+    top: 83%;
+    width: 90px;
+    height: 35px;
+    background-color: darkorange;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: Arial;
+}
+.pedido:hover{
+    background-color: rgb(196, 108, 0);
+}
